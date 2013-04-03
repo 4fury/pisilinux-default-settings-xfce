@@ -9,13 +9,12 @@ datas = [
     ('/usr/share/pixmaps', glob.glob('pixmaps/*')),
     ('/usr/share/backgrounds/xfce', glob.glob('xfce/*')),
     ('/etc/xdg/xfce4/xfconf/xfce-perchannel-xml', glob.glob('xfce-perchannel-xml/*')),
-    ('share/doc/pardus-default-settings-xfce', ['AUTHORS',
-                                                'COPYING',
+    ('share/doc/pisilinux-default-settings-xfce', ['COPYING',
                                                 'README']),
     ]
 
 setup(
-    name = 'pardus-default-settings-xfce',
-    version = '0.1.4',
+    name = 'pisilinux-default-settings-xfce',
+    version = '1.0',
     data_files = datas,
     )
