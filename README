@@ -1,4 +1,8 @@
 pisilinux-default-settings-xfce
 ===============================
-
 Pisi Linux default settings for XFCE
+
+Requirements:
+-Xfce base component must be installed.
+-dejavu-fonts
+-icon-theme-elemantary
