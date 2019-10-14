@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import os, glob
+import glob
 from distutils.core import setup
 
 datas = [
