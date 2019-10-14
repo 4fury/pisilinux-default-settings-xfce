@@ -1,11 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import glob
+import os, glob
 from distutils.core import setup
 
 datas = [
 	('/usr/share/applications', glob.glob('applications/*')),
+	('/etc/skel/.config', ['xfce-mimeapps.list']),
+	('/etc/xdg/xfce4/scripts', ['additional-logout']),
+	('/etc/xdg/autostart', ['additional-logout.desktop']),
 #	('/usr/share/pixmaps', glob.glob('pixmaps/*')),
 #	('/usr/share/backgrounds/xfce', glob.glob('xfce/*')),
 	]
