@@ -1,0 +1,14 @@
+show_frame=true
+fg_set=false
+bg_set=false
+width_set=false
+height_set=false
+lines_vertically=false
+rotation=0
+data0=\ %l:
+font0=Sans Bold 10
+data1=%M\ 
+font1=Sans Bold 10
+tooltip=%A %d %B %Y/%V
+hib_timing=true
+

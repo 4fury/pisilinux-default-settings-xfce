@@ -1,14 +1,14 @@
 [Default Applications]
 application/pdf=evince.desktop;
-application/zip=xarchiver.desktop;
-application/x-xz=xarchiver.desktop;
-application/gzip=xarchiver.desktop;
-application/vnd.rar=xarchiver.desktop;
-application/x-tar=xarchiver.desktop;
-application/x-7z-compressed=xarchiver.desktop;
-application/x-compressed-tar=xarchiver.desktop;
-application/x-xz-compressed-tar=xarchiver.desktop;
-application/x-bzip-compressed-tar=xarchiver.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/x-xz=org.gnome.FileRoller.desktop;
+application/gzip=org.gnome.FileRoller.desktop;
+application/vnd.rar=org.gnome.FileRoller.desktop;
+application/x-tar=org.gnome.FileRoller.desktop;
+application/x-7z-compressed=org.gnome.FileRoller.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-bzip-compressed-tar=org.gnome.FileRoller.desktop;
 audio/mp4=mpv.desktop;
 video/mp4=mpv.desktop;
 audio/flac=mpv.desktop;
